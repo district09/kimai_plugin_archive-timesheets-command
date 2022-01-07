@@ -1,0 +1,25 @@
+{
+    "name": "digipolisgent/archive-timesheets-command-plugin",
+    "description": "A Kimai 2 plugin, which allows you to archive timesheets older than a specified timeframe, using a command.",
+    "homepage": "https://github.com/digipolisgent/kimai_plugin_personal-calendar-pref",
+    "type": "kimai-plugin",
+    "keywords": [
+        "kimai",
+        "kimai-plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jelle Sebreghts",
+            "email": "Jelle.Sebreghts@district09.gent"
+        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": "1.15",
+            "version": "1.0.1",
+            "name": "ArchiveTimesheetsCommand"
+        },
+        "installer-name": "ArchiveTimesheetsCommandBundle"
+    }
+}
