@@ -6,4 +6,4 @@ services:
 
     KimaiPlugin\ArchiveTimesheetsCommandBundle\:
         resource: '../../*'
-        exclude: '../../{Resources}'
+        exclude: '../../Resources'
