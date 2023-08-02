@@ -19,7 +19,7 @@
         "installer-name": "ArchiveTimesheetsCommandBundle",
         "kimai": {
             "name": "ArchiveTimesheetsCommand",
-            "require": "2000"
+            "require": 20000
         }
     }
 }
