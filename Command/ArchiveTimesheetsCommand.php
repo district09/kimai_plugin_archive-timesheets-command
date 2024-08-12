@@ -88,6 +88,8 @@ class ArchiveTimesheetsCommand extends Command
         // at once.
         $query->setPageSize(50);
         $pagedTimesheets = $this->timesheetRepository->getPagerfantaForQuery($query);
+        $pagedTimesheets->setNormalizeOutOfRangePages(false);
+        $pagedTimesheets->setAllowOutOfRangePages(false);
         $progressBar = new ProgressBar($output, $pagedTimesheets->count());
 
         $this->entityManager->beginTransaction();
