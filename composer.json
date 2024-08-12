@@ -3,7 +3,7 @@
     "description": "A Kimai 2 plugin, which allows you to archive timesheets older than a specified timeframe, using a command.",
     "license": "MIT",
     "type": "kimai-plugin",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "keywords": [
         "kimai",
         "kimai-plugin"
